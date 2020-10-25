@@ -2,5 +2,5 @@
 
 set -o errexit
 
-inkscape --export-area-page --export-background white -z -e twitter.png -w 400 -h 400 vector.svg
+inkscape --export-area-page --export-background white -z -o twitter.png -w 400 -h 400 vector.svg
 optipng -o7 twitter.png
